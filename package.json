@@ -1,0 +1,17 @@
+{
+  "name": "azure_node_app",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "installClient": "npm install --profix client",
+    "buildClient": "npm run build --prefix client",
+    "start": "node app.js"
+  },
+  "author": "Sheikh Zubair",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
